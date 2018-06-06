@@ -1,14 +1,14 @@
 Table table1;
 Table table2;
 String titles[] = {
-  "Titulo", "Free Text" 
+  "Titulo", "Free Text"
 };
 String arquivo = "ClassificacaoPronta-UTF-8.csv";
 String subarquivo = "ClassificacaoSubPronta-UTF-8.csv";
 
 void setup() {
   //println("setup inicio");
-  table1 = loadTable("C:/Users/Divulgacao/OneDrive/Fundação/wiki/csv to wiki/csvMuseuToWiki/data/todosProntoUTF-8.csv", "header");
+  table1 = loadTable("csvMuseuToWiki/data/todosProntoUTF-8.csv", "header");
   table2 = new Table();
   table2.setColumnTitles(titles);
   table2.setColumnCount(2);

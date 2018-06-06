@@ -2,15 +2,15 @@ Table table1;
 Table table2;
 Table table3;
 String titles[] = {
-  "Titulo", "Free Text" 
+  "Titulo", "Free Text"
 };
 
 
 void setup() {
-  //table1 = loadTable("C:/Users/Divulgacao/OneDrive/Fundação/wiki/csv to wiki/csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //WINDOWS
-  table1 = loadTable("/Volumes/GODHD/Users/henriquegodinhohd/Documents/OneDrive/Fundação/wiki/csv to wiki/csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //MAC
+
+  table1 = loadTable("csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //MAC
   table2 = new Table();
-  table2.setColumnTitles(titles);  
+  table2.setColumnTitles(titles);
   table3 = new Table();
   table3.setColumnTitles(titles);
   println("tabelas ok");
@@ -26,7 +26,7 @@ void draw() {
     TableRow row2 = table2.getRow(i);
     TableRow row3 = table3.getRow(i);
     String data = row1.getString("Acervo[Data]");
-    
+
     if (data.contains(str(char(47)))) {
       int data1 = data.indexOf(char(47));
       String dataUM = data.substring(0, data1);

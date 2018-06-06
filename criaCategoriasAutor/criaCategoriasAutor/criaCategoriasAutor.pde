@@ -1,13 +1,12 @@
 Table table1;
 Table table2;
 String titles[] = {
-  "Titulo", "Free Text" 
+  "Titulo", "Free Text"
 };
 
 void setup() {
   //println("setup inicio");
-  //table1 = loadTable("C:/Users/Divulgacao/OneDrive/Fundação/wiki/csv to wiki/csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //WINDOWS
-  table1 = loadTable("/Volumes/GODHD/Users/henriquegodinhohd/Documents/OneDrive/Fundação/wiki/csv to wiki/csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //MAC
+  table1 = loadTable("csvMuseuToWiki/data/todosProntoUTF-8.csv", "header")
   table2 = new Table();
   table2.setColumnTitles(titles);
   println("tabela ok");
