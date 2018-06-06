@@ -8,7 +8,7 @@ String titles[] = {
 
 void setup() {
 
-  table1 = loadTable("csvMuseuToWiki/data/todosProntoUTF-8.csv", "header"); //MAC
+  table1 = loadTable("csvMuseuToWiki/data/todosProntoUTF-8.csv", "header");
   table2 = new Table();
   table2.setColumnTitles(titles);
   table3 = new Table();
