@@ -2,11 +2,11 @@
 desenvolvimento da Wiki Ema Klabin
 
 - [csvMuseuToWiki](#csvmuseutowiki)
-- [criaCategoriasClassificacao](#criaCategoriasclassificacao)
+- [criaCategoriasClassificacao](#criacategoriasclassificacao)
 
 <!-- toc -->
 ## csvMuseuToWiki
-![Fluxograma da Construção da Wiki Ema Klabin](https://raw.githubusercontent.com/hgodinho/wiki-ema-klabin/fa73f1233564d20fbce78fffb7dbec749d1e2349/wiki-ema-klabin-fluxograma-principal.png)
+![Fluxograma da Construção da Wiki Ema Klabin](wiki-ema-klabin/fluxogramas/wiki-ema-klabin-fluxograma-principal.png)
 
 ***********************
 ## criaCategoriasClassificacao
