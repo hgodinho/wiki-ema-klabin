@@ -19,7 +19,7 @@ desenvolvimento da Wiki Ema Klabin
 
 ***********************
 ## criaCategoriasClassificacao
-![Fluxograma ddo programa de categorização da classificacao](/fluxogramas/fluxograma-cria-categorias-autor.png)
+![Fluxograma ddo programa de categorização da classificacao](/fluxogramas/fluxograma-cria-categorias-classificacao.png)
 
 ***********************
 ## criaCategoriasData
