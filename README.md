@@ -6,7 +6,7 @@ desenvolvimento da Wiki Ema Klabin
 
 <!-- toc -->
 ## csvMuseuToWiki
-![Fluxograma da Construção da Wiki Ema Klabin](wiki-ema-klabin/fluxogramas/wiki-ema-klabin-fluxograma-principal.png)
+![Fluxograma da Construção da Wiki Ema Klabin](/fluxogramas/wiki-ema-klabin-fluxograma-principal.png)
 
 ***********************
 ## criaCategoriasClassificacao
