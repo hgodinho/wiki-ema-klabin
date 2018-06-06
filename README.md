@@ -1,8 +1,8 @@
 # wiki-ema-klabin
 desenvolvimento da Wiki Ema Klabin
 
-- [csvMuseuToWiki](#csvMuseuToWiki)
-- [criaCategoriasClassificacao](#criaCategoriasClassificacao)
+- [csvMuseuToWiki](#csvmuseutowiki)
+- [criaCategoriasClassificacao](#criaCategoriasclassificacao)
 
 <!-- toc -->
 ## csvMuseuToWiki
