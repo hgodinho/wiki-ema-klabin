@@ -1,13 +1,22 @@
+/*
+programa para criar as páginas de redirecionamento da Wiki: nome da obra >> numero de tombo
+usa uma tabela preparada contendo somente as colunas de numero de tombo e nome da obra
+escreve a nova tabela com cada linha sendo uma página de categoria para a wiki
+por hgodinho.com
+*/
+
 Table table;
 String titles[] = {
   "Titulo", "Numero de Tombo", "Free Text"
 };
 
 void setup() {
+  //carrega a tabela preparada contendo somente numero de tombo e nome da obra
   table = loadTable("todos.csv");
   table.setColumnTitles(titles);
   println("titulos ok");
   println(table.getRowCount());
+  //cria a nova tabela que receberá os dados preparados
   saveTable(table, "data/redirects.csv");
 }
 
@@ -21,6 +30,7 @@ void draw() {
     }
   }
   table.removeColumn(1);
+  //salva a nova tabela
   saveTable(table, "data/redirects.csv");
   println("salvo");
   noLoop();
