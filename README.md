@@ -12,6 +12,7 @@ desenvolvimento da Wiki Ema Klabin
 <!-- toc -->
 ## csvMuseuToWiki
 ![Fluxograma da Construção da Wiki Ema Klabin](/fluxogramas/wiki-ema-klabin-fluxograma-principal.png)
+[topo](#wiki-ema-klabin)
 
 ***********************
 ## criaCategoriasAutor
